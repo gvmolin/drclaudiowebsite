@@ -16,8 +16,7 @@ h1{
 }
 
 h2{
-    font-size: 19px;
-    
+    font-size: 19px; 
 }
 
 a{
@@ -32,7 +31,6 @@ header {
     height: 100px;
     background-color: rgb(255, 255, 255);
     z-index: 10;
-    
 }
 
 .conteudo-header{
@@ -116,10 +114,9 @@ iframe{
     margin: 0 auto;
     position: relative;
     margin-top: 40px;
-    
 }
 
-.equipe-card {
+.equipe-card{
     display: flex;
     width: 100%;
     align-items: center;
@@ -145,6 +142,7 @@ iframe{
 .equipe-card h3{
     color: rgb(219, 219, 219);
 }
+
 /* menu */
 .menu{
     height: 111%;
@@ -175,6 +173,7 @@ iframe{
 footer{
     background-color: rgb(118, 255, 214);
     padding: 20px 0;
+    
 }
 
 footer .view{
@@ -202,4 +201,30 @@ footer ul li{
 .contatos img{
     height: 20px;
     margin-right: 5px;
+}
+
+/*tabela de serviços*/
+
+
+.serviço{
+    width: 100%;
+    border-left: solid 2px rgb(118, 255, 214);
+    padding-left: 10px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.serviço div{
+    width: 99%;
+}
+
+.serviço button{
+    background-color: rgb(118, 255, 214);
+    border: none;
+    height: 50px;
+    width: 100%;
+    color: #235270;
+
 }
