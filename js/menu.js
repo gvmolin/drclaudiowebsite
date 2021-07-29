@@ -17,4 +17,15 @@ function pronto(){
             }
         }
     )
+
+    var cards = document.querySelectorAll(".botaum")
+    
+    for (i = 0; i < cards.length; i++) {
+        var card = cards[i]
+        card.addEventListener("click", ()=>{console.log(cards[i])})
+    }
+    
+    
+    
 }
+

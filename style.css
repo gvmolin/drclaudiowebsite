@@ -29,7 +29,7 @@ header {
     top: 0;
     width: 100%;
     height: 100px;
-    background-color: rgb(255, 255, 255);
+    background-color: #FFCC29;
     z-index: 10;
 }
 
@@ -171,9 +171,8 @@ iframe{
 
 /* footer */
 footer{
-    background-color: rgb(118, 255, 214);
+    background-color: #F7A440;
     padding: 20px 0;
-    
 }
 
 footer .view{
@@ -207,18 +206,12 @@ footer ul li{
 
 
 .serviço{
-    width: 100%;
+    width: 94%;
     border-left: solid 2px rgb(118, 255, 214);
     padding-left: 10px;
     margin: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
-.serviço div{
-    width: 99%;
-}
 
 .serviço button{
     background-color: rgb(118, 255, 214);
@@ -226,5 +219,12 @@ footer ul li{
     height: 50px;
     width: 100%;
     color: #235270;
-
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
 }
+
+.serviço h2{
+    margin-bottom: 10px;
+}
+
