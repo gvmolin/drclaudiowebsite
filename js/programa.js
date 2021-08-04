@@ -6,9 +6,9 @@ function montarCard(titulo, conteudo){
     containerCard.classList.add('serviço')
     
     var card = `
-                <h1 class="botaum">${titulo}</h1>
+                <h1>${titulo}</h1>
                 <h2>${conteudo}</h2>
-                <button>Agendar</button>              
+                <button onclick="abrirMenu()">Agendar</button>              
     `
     containerCard.innerHTML = card
     areaCards.append(containerCard)

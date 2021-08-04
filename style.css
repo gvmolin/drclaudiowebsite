@@ -228,3 +228,30 @@ footer ul li{
     margin-bottom: 10px;
 }
 
+/* form */
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#nome {
+    width: 100%;
+}
+
+#nome label{
+    width: 20%;
+}
+
+#nome input{
+    width: 80%;
+}
+#idade{
+    width: 40%;
+}
+
+#idade input {
+    width: 70px;
+}
